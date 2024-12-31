@@ -95,7 +95,7 @@ function App() {
 
    {/* loader */}
      {loading && (
-        <div className="flex justify-center py-10">
+        <div className="flex justify-center py-10 min-h-[100vh]">
           <span className="loading loading-infinity loading-lg"></span>
         </div>
       )}
@@ -124,7 +124,7 @@ function App() {
 
    </div>
 
-   
+
 {/*  
  pagination */}
     <div className='flex flex-wrap justify-center items-center gap-3 my-5'>
@@ -143,7 +143,7 @@ function App() {
 
 
 
-    <footer className="footer bg-base-200 text-base-content p-10 mt-min-h-screen">
+    <footer className="footer bg-base-200 text-base-content p-10 mt-auto">
   <aside>
     <svg
       width="50"
